@@ -7,7 +7,7 @@ const NavbarComponents = () => {
             <div className="logo mx-auto md:mx-0 md:w-36 lg:w-full">
                 <LevelUpLogo/>
             </div>
-            <ul className="hidden md:flex gap-x-20 font-semibold lg:text-xl md:text-md ">
+            <ul className="hidden md:flex gap-x-20 font-medium lg:text-xl md:text-md ">
                 <li> <a href="" className="hover:border-b-2 hover:border-black">Home</a></li>
                 <li> <a href="" className="hover:border-b-2 hover:border-black">Tentang</a></li>
                 <li> <a href="" className="hover:border-b-2 hover:border-black">Kontak</a></li>
