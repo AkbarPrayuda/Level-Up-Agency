@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Button = (props) => {
+const Buttons = (props) => {
     if(props.background === ''){
         props.background = slate
     }
@@ -11,4 +11,4 @@ const Button = (props) => {
   )
 }
 
-export default Button
+export default Buttons

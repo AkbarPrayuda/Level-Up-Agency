@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroImageHome from '../Elements/HeroImageHome'
 import './HomeSection.css'
-import Button from '../Elements/Button'
+import Buttons from '../Elements/Buttons'
 
 const HomeSection = () => {
   return (
@@ -11,9 +11,9 @@ const HomeSection = () => {
             <div className='ml-12 my-auto'>
                 <h1 className='text-3xl font-semibold header-text flex justify-center'>Membawa Bisnis Lokal ke Tingkat Berikutnya, Melalui Era Digital</h1>
                 <div className='mt-5'>
-                    <Button background="green" text='white'>Hubungi Kami</Button>
+                    <Buttons background="green" text='white'>Hubungi Kami</Buttons>
                     <div className='block mt-3'>
-                        <Button text="blue-400">Konsultasi Sekarang</Button>
+                        <Buttons text="blue-400">Konsultasi Sekarang</Buttons>
                     </div>
                 </div>
             </div>
