@@ -6,8 +6,6 @@ import NavbarComponents from './Components/Navbar/NavbarComponents'
   return (
     <div>
       <NavbarComponents />
-
-      <Home/>
     </div>
   )
 }
