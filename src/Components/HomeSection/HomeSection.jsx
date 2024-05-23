@@ -11,7 +11,7 @@ const HomeSection = () => {
                 <h1 className='py-4 text-3xl font-semibold text-center md:text-start md:text-5xl md:py-0'>Membawa Bisnis Lokal ke Tingkat Berikutnya, Melalui Era Digital</h1>
                 <div className='flex flex-col items-center gap-4 md:gap-7'>
                     <Buttons text='text-white' background='lime-main' backgroundHover='lime-main'>Hubungi Kami</Buttons>
-                    <Buttons text="text-blue-400" background='bg-white' backgroundHover='stone-200'>Konsultasi Sekarang</Buttons>
+                    <Buttons text="text-blue-400" background='white' backgroundHover='stone-200'>Konsultasi Sekarang</Buttons>
                 </div>
             </div>
         </div>
