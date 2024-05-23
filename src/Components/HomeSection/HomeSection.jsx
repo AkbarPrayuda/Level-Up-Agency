@@ -1,24 +1,20 @@
 import React from 'react'
 import HeroImageHome from '../Elements/HeroImageHome'
-import './HomeSection.css'
+// import './HomeSection.css'
 import Buttons from '../Elements/Buttons'
 
 const HomeSection = () => {
   return (
-    <div className='mt-16 font-poppins'>
-        <div className='ml-28 flex'>
+        <div className='flex items-center justify-between '>
             <HeroImageHome/>
-            <div className='ml-12 my-auto'>
-                <h1 className='text-3xl font-semibold header-text flex justify-center'>Membawa Bisnis Lokal ke Tingkat Berikutnya, Melalui Era Digital</h1>
-                <div className='mt-5'>
-                    <Buttons background="green" text='white'>Hubungi Kami</Buttons>
-                    <div className='block mt-3'>
-                        <Buttons text="blue-400">Konsultasi Sekarang</Buttons>
-                    </div>
+            <div className='flex flex-col w-1/2 gap-9'>
+                <h1 className='text-5xl font-semibold'>Membawa Bisnis Lokal ke Tingkat Berikutnya, Melalui Era Digital</h1>
+                <div className='flex flex-col items-center gap-7'>
+                    <Buttons text='text-white' background='lime-main' backgroundHover='lime-main'>Hubungi Kami</Buttons>
+                    <Buttons text="text-blue-400" background='bg-white' backgroundHover='stone-200'>Konsultasi Sekarang</Buttons>
                 </div>
             </div>
         </div>
-    </div>
   )
 }
 

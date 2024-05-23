@@ -4,7 +4,7 @@ import HomeSection from '../Components/HomeSection/HomeSection'
 
 const HomePages = () => {
   return (
-    <div>
+    <div className='py-8 mx-auto lg:w-10/12 md:w-5/6'>
       <NavbarComponents/>
       <HomeSection/>
     </div>
