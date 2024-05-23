@@ -3,8 +3,8 @@ import LevelUpLogo from "../Elements/LevelUpLogo"
 const NavbarComponents = () => {
   return (
     <>
-        <nav className="flex items-center justify-between mb-20 shadow-md font-poppins md:shadow-none">
-            <div className="mx-auto logo md:mx-0 md:w-36 lg:w-full">
+        <nav className="flex items-center justify-center mb-20 shadow-md md:justify-between font-poppins md:shadow-none">
+            <div className="py-4 mx-auto md:py-0 logo md:mx-0 md:w-36 lg:w-full">
                 <LevelUpLogo/>
             </div>
             <ul className="hidden font-medium md:flex gap-x-20 lg:text-xl md:text-md ">
