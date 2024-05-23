@@ -1,6 +1,6 @@
 const HeroImageHome = () => {
   return (
-    <img src="./public/svg/HeroImageHome.svg" alt="" className='w-auto h-64 md:h-96 rounded-3xl'/>
+    <img src="./public/svg/HeroImageHome.svg" alt="" className='w-auto h-64 lg:h-96 md:h-72 rounded-3xl'/>
   )
 }
 
