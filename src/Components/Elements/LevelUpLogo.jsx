@@ -1,6 +1,8 @@
 const LevelUpLogo = () => {
     return (
-        <img src='../../public/svg/logo.svg' alt="" srcset="" />
+        <>
+            <img src="./src/assets/svg/Logo.svg" alt="" srcset="" />
+        </>
     )
 }
 
