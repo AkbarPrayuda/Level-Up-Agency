@@ -1,7 +1,8 @@
 import React from 'react'
 import HeroImageHome from '../Elements/HeroImageHome'
 // import './HomeSection.css'
-import Buttons from '../Elements/Buttons'
+import Buttons from '../Elements/Button/Buttons'
+import WhiteButton from '../Elements/Button/WhiteButton'
 
 const HomeSection = () => {
   return (
@@ -11,7 +12,7 @@ const HomeSection = () => {
                 <h1 className='py-4 text-3xl font-semibold text-center md:text-start md:text-2xl lg:text-5xl md:py-0'>Membawa Bisnis Lokal ke Tingkat Berikutnya, Melalui Era Digital</h1>
                 <div className='flex flex-col items-center gap-4 md:gap-7'>
                     <Buttons text='text-white' background='lime-main' backgroundHover='lime-main'>Hubungi Kami</Buttons>
-                    <Buttons text="text-blue-400" background='white' backgroundHover='stone-200'>Konsultasi Sekarang</Buttons>
+                    <WhiteButton text="text-blue-400">Konsultasi Sekarang</ WhiteButton>
                 </div>
             </div>
         </div>
