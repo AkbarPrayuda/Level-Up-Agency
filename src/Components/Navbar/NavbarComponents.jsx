@@ -8,8 +8,8 @@ const NavbarComponents = () => {
                 <LevelUpLogo/>
             </div>
             <ul className="hidden font-medium md:flex gap-x-20 lg:text-xl md:text-md ">
-                <li> <a href="" className="hover:border-b-2 hover:border-black">Home</a></li>
-                <li> <a href="" className="hover:border-b-2 hover:border-black">Tentang</a></li>
+                <li> <a href="#home" className="hover:border-b-2 hover:border-black">Home</a></li>
+                <li> <a href="#about" className="hover:border-b-2 hover:border-black">Tentang</a></li>
                 <li> <a href="" className="hover:border-b-2 hover:border-black">Kontak</a></li>
                 <li> <a href="" className="hover:border-b-2 hover:border-black">Jasa</a></li>
             </ul>
