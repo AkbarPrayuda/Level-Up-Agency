@@ -44,7 +44,7 @@ const NavbarComponents = () => {
                    onSetActive={handleSetActive}
                   className="border-black hover:cursor-pointer hover:border-b-2"
 
-                >Tentang</Link>
+                >Jasa</Link>
                 {/* <li> <a href="" className="hover:border-b-2 hover:border-black">Kontak</a></li> */}
             </ul>
         </nav>
