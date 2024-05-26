@@ -6,7 +6,7 @@ import WhiteButton from '../Elements/Button/WhiteButton'
 
 const HomeSection = () => {
   return (
-        <div className='flex flex-col items-center justify-between h-full md:flex-row md:gap-9 lg:gap-9' id='home'>
+        <div className='flex flex-col items-center justify-between h-full py-14 md:flex-row md:gap-9 lg:gap-9' >
             <HeroImageHome/>
             <div className='flex flex-col items-center md:w-1/2 gap-9'>
                 <h1 className='py-4 text-2xl font-semibold text-center md:text-start lg:text-5xl md:py-0'>Membawa Bisnis Lokal ke Tingkat Berikutnya, Melalui Era Digital</h1>

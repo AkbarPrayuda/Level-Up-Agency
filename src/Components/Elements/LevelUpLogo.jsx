@@ -1,8 +1,6 @@
-const LevelUpLogo = () => {
+const LevelUpLogo = (props) => {
     return (
-        <>
-            <img src={"./svg/Logo.svg"} alt="" srcset="" />
-        </>
+        <img src={"./svg/Logo.svg"} alt="" className={props.iniClass}/>
     )
 }
 
